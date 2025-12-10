@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>NOBLE FINANCES</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand text-success fw-bold fs-1 mx-5"
+            >Noble Finances</a
+          >
+          <button
+            class="navbar-toggler bg-success"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-items">
+                <a href="#services" class="nav-link text-success">Services</a>
+              </li>
+              <li class="nav-items">
+                <a href="#" class="nav-link px-4 bg-success rounded-pill">Book an Appointment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="hero d-flex align-items-center text-white py-5"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <h1 class="title my-5 text-success">Financial Clearity You Can Trust</h1>
+              <p class="hero-intro my-5 text-success">
+                Trusted financial guidance for every stage of life and business
+                since 1987
+              </p>
+              <a
+                href="#"
+                class="hero-btn bg-success text-white text-decoration-none px-5 py-3 rounded-pill"
+                >Connect with our experts</a
+              >
+            </div>
+
+            <div class="col md-7 mx-5 my-5">
+              <img
+                src="image/home-img.png"
+                class="img-fluid rounded w-100"
+                alt="background"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services py-5">
+        <div class="container">
+          <p class="text-center my-5 text-success">Service</p>
+          <h2 class=" my-5 text-success">
+            Let us handle the numbers, <br />so you can handle your success.
+          </h2>
+          <p class=" my-5 text-success">
+            Serving individuals and small businesses since 1987
+          </p>
+          <a
+            href="#"
+            class=" my-5 px-3 py-3 bg-success rounded-pill text-decoration-none text-white"
+            >Schedule a call</a
+          >
+
+          <div class="row align-items-center my-5 p-md-5">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+              <img
+                src="image/tax.png"
+                alt="Tax Preparation"
+                class="img-fluid w-75"
+              />
+            </div>
+
+            <div class="col-md-7">
+              <h2 class="fw-bold my-3 text-success">
+                Tax Preparation & Filing
+              </h2>
+              <p class="text-success mb-4">
+                Accurately prepare and file personal and business tax returns to
+                maximize deductions and ensure compliance.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 my-5">
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >1099 Taxes</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Dependents</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Trust Taxes</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center p-md-5">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+              <h2 class="fw-bold my-3 text-success">IRS Audit Assistance</h2>
+              <p class="text-success mb-4">
+                Offer expert guidance and representation to resolve tax audits
+                and disputes with confidence.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >1099 Taxes</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Dependents</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Trust Taxes</a
+                >
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <img src="image/irs.png" alt="IRS" class="img-fluid w-75" />
+            </div>
+          </div>
+
+          <div class="row align-items-center my-5 p-md-5">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+              <img
+                src="image/bookkeeping.png"
+                alt="Accounting"
+                class="img-fluid w-75 my-3"
+              />
+            </div>
+
+            <div class="col-md-7">
+              <h2 class="fw-bold my-3 text-success">
+                Bookkeeping & Accounting
+              </h2>
+              <p class="text-success mb-4">
+                Maintain organized financial records and provide clear reports
+                to support business growth and financial health.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 my-5">
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >1099 Taxes</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Dependents</a
+                >
+                <a href="#" class="btn btn-light text-success rounded px-3 py-2"
+                  >Trust Taxes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section py-5">
+        <div class="container">
+          <h3 class="my-5 text-center text-success">
+            Hear From Our Happy Clients
+          </h3>
+
+          <div class="row align-items-center">
+            <div class="col-md-4 mb-4">
+              <div class="list-group">
+                <div
+                  class="list-group-item testimonial-option active"
+                  data-target="#testimonial1"
+                >
+                  <p class="mb-1 fw-bold">Graphic Designer</p>
+                  <small>Ontario, Canada</small>
+                </div>
+                <div
+                  class="list-group-item testimonial-option"
+                  data-target="#testimonial2"
+                >
+                  <p class="mb-1 fw-bold">Commercial Photographer</p>
+                  <small>Ontario, Canada</small>
+                </div>
+                <div
+                  class="list-group-item testimonial-option"
+                  data-target="#testimonial3"
+                >
+                  <p class="mb-1 fw-bold">Stylist</p>
+                  <small>Austin Texas</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <div id="testimonial1" class="testimonial-details active">
+                <div class="card p-4 shadow-sm border-0">
+                  <p class="mb-3 fw-bold fs-1 text-success">
+                    "Managing my taxes as a freelancer used to be overwhelming,
+                    but Noble Finance made it effortless.”
+                  </p>
+                  <div class="d-flex">
+                    <img
+                      src="image/client1.png"
+                      class="rounded-circle"
+                      alt="client"
+                    />
+                    <small class="text-success mt-5 ms-5"
+                      >Taylor M., 28 years old</small
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="testimonial2" class="testimonial-details">
+                <div class="card p-4 shadow-sm border-0">
+                  <p class="mb-3 fw-bold fs-1 text-success">
+                    ""From invoicing to tax prep, Noble Finance has been a
+                    game-changer for my freelance business.”
+                  </p>
+                  <div class="d-flex">
+                    <img
+                      src="image/client2.png"
+                      class="rounded-circle"
+                      alt="client"
+                    />
+                    <small class="text-success mt-5 ms-5"
+                      >Markus N., 31 years old</small
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div id="testimonial3" class="testimonial-details">
+                <div class="card p-4 shadow-sm border-0">
+                  <p class="mb-3 fw-bold fs-1 text-success">
+                    "I used to worry about missing deductions, but with Noble
+                    Finance, I know I’m maximizing my savings.”
+                  </p>
+                  <div class="d-flex">
+                    <img
+                      src="image/client3.png"
+                      class="rounded-circle"
+                      alt="client"
+                    />
+                    <small class="text-success mt-5 ms-5"
+                      >Margaret L., 24 years old</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center my-5">
+            <div class="col-md-6 my-5">
+              <h4 class="text-success">Smart Finance for <br />everyone</h4>
+            </div>
+            <div class="col-md-6">
+              <p class="text-success">
+                At Noble Finance, we believe that financial confidence should be
+                accessible to everyone—whether you’re a solo entrepreneur,
+                managing a growing family, or running a small business.
+              </p>
+            </div>
+          </div>
+
+          <div class="row my-5 align-items-center">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="info-box my-5 mx-5">
+                <i class="bi bi-briefcase text-success my-5"></i>
+                <p class="text-success fw-bold fs-3">For Freelancers</p>
+                <p class="text-success">Simplicity & Control</p>
+                <p class="text-success">
+                  Stay in charge of your income with seamless expense tracking,
+                  automated deductions, and smart tax strategies—so you can
+                  focus on doing what you love.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="info-box mx-5 my-5">
+                <i class="bi bi-person text-success"></i>
+                <p class="text-success fw-bold fs-3">For Families</p>
+                <p class="text-success">Stability & Security</p>
+                <p class="text-success">
+                  From budgeting tools to tax-saving insights, we help you plan
+                  for the future, maximize refunds, and keep your household
+                  finances running smoothly.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="info-box mx-5 my-5">
+                <i class="bi bi-building text-success"></i>
+                <p class="text-success fw-bold fs-3">For Small Businesses</p>
+                <p class="text-success">Stability & Security</p>
+                <p class="text-success">
+                  Effortless bookkeeping, payroll solutions, and expert-backed
+                  tax support—so you can spend less time on finances and more
+                  time scaling your business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="last py-5">
+        <div class="container">
+
+          <div class="row align-items-center my-5">
+
+            <div class="col-6">
+              <div class="card py-5 bg-success rounded-">
+                <p class="fw-bold fs-3 mx-5 text-white">
+                  A custom build plan <br />for you
+                </p>
+                <small class="mx-5 text-white"
+                  >At Noble Finances, we believe that tax filing should be
+                  seamless, accurate, and stress-free. Our approach is centered
+                  on three key pillars: simplicity, accuracy, and
+                  security.
+                </small>
+                <a href="#" class="w-50 mx-5 py-2 rounded-pill bg-light my-5 text-center text-decoration-none text-dark">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-6 d-flex justify-content-center">
+              <img src="image/wooden stairs.png" class="img-fluid" alt="stairs">
+            </div>
+
+          </div>
+
+          <div>
+            <h5 class="text-success text-center my-5">
+            We believe that tax filing should be seamless, accurate, and stress-free. Get started with Noble Finance today!
+          </h5>
+          <a href="#" class="mx-5 px-3 py-3 bg-success text-decoration-none text-white rounded-pill">Connect with our experts</a>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-5 bg-success">
+      <div class="container">
+
+        <div class="row align-items-center justify-content-between">
+
+           <!-- Left Column -->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <a href="#" class="footer-brand text-decoration-none text-white">Noble Finances</a>
+          <div class="footer-tagline mt-3">
+            <strong class="text-white">Financial Clarity You Can Trust</strong><br>
+            <p class="text-white">Trusted financial guidance for every stage of life and business since 1987</p>
+          </div>
+        </div>
+
+        <!-- Center Column -->
+        <div class="col-lg-4 col-md-6 text-lg-end text-md-end footer-center">
+          <a href="#" class="footer-link text-decoration-none text-white">Services</a>
+          <button class="footer-btn px-3 py-3 bg-light border-0 mx-5 text-success rounded-pill">Book An Appointment</button>
+        </div>
+          
+        </div>
+
+        <!-- Bottom Text -->
+      <div class="footer-bottom text-center my-5 text-white">
+        © 2025 All Rights Reserved
+      </div>
+
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
